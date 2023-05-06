@@ -8,29 +8,39 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import gitHub from "./tech/github.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
+import mp from "./tech/mp.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import cloudinary from "./tech/pngegg.png";
+import google from "./tech/google.png";
+import postgreSQL from './tech/sql.png';
+import sql from './tech/sql1.png';
+import scrum from './tech/scrum.png';
+import sequelize from './tech/sequelize.png';
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import patita from "./company/xAQYbIA.png";
+import rickAndMorty from './company/pngwing.com.png'
+import burger from "./company/burger.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  scrum,
+  sequelize,
+  google,
+  sql,
+  postgreSQL,
+  mp,
+  burger,
   logo,
   backend,
   creator,
@@ -40,23 +50,19 @@ export {
   menu,
   close,
   css,
-  docker,
+  gitHub,
   figma,
   git,
   html,
   javascript,
-  mongodb,
   nodejs,
   reactjs,
   redux,
   tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  patita,
   carrent,
   jobit,
   tripguide,
+  rickAndMorty,
+  cloudinary,
 };

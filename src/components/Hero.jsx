@@ -16,11 +16,11 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Marcos</span>
+            Hola, soy <span className='text-[#915EFF]'>Marcos</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Full Stack Developer <br className='sm:block hidden' />
-            interfaces and web applications
+            Desarrolador Full Stack de <br className='sm:block hidden' />
+            interfaces y aplicaciones web
           </p>
         </div>
       </div>
@@ -30,7 +30,7 @@ const Hero = () => {
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-            <motion.div
+            <motion.dev
               animate={{
                 y: [0, 24, 0],
               }}
