@@ -29,9 +29,9 @@ import patita from "./company/xAQYbIA.png";
 import rickAndMorty from './company/pngwing.com.png'
 import burger from "./company/burger.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import RandM from "./Captura_de_pantalla_2020-04-26_a_las_11.43.42-original.webp";
+import appFood from "./foodApp.jpg";
+import patitas from "./PatitasFelices.jpg";
 
 export {
   scrum,
@@ -60,9 +60,9 @@ export {
   redux,
   tailwind,
   patita,
-  carrent,
-  jobit,
-  tripguide,
+  RandM,
+  appFood,
+  patitas,
   rickAndMorty,
   cloudinary,
 };
