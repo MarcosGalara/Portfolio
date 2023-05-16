@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion'
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import Desktop from '../utils/lottiefiles/desk-developer.json';
+import { Player } from '@lottiefiles/react-lottie-player';
 
 const Hero = () => {
   return (
@@ -24,9 +25,26 @@ const Hero = () => {
           </p>
         </div>
       </div>
-
-      {/* <ComputersCanvas />
- */}
+      <div
+      style={{
+        width: "100vw",
+        height: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+    }}
+      >
+            <Player 
+            autoplay
+            loop
+            src={Desktop}
+            style={{
+              width: "110%",
+              height: "110%",
+              marginTop: "200px"
+            }}
+            />
+      </div>
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
