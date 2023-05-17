@@ -1,12 +1,12 @@
 import React from 'react'
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { useTranslation } from 'react-i18next';
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
@@ -61,11 +61,14 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
 };
 
 const Works = () => {
+
+  const { t } = useTranslation();
+
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Mi Trabajo</p>
-        <h2 className={`${styles.sectionHeadText}`}>Proyectos.</h2>
+        <p className={`${styles.sectionSubText} `}>{t("constants.works.title")}</p>
+        <h2 className={`${styles.sectionHeadText}`}>{t("constants.works.proy")}</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -73,7 +76,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Los siguientes proyectos muestran mis habilidades y experiencia a través de ejemplos reales de mi trabajo. Cada proyecto se describe brevemente con enlaces a repositorios de código y demostraciones en vivo. Refleja mi capacidad para resolver problemas complejos, trabajar con diferentes tecnologías y gestionar proyectos de forma eficaz.
+          {t("constants.works.summary")}
         </motion.p>
       </div>
 

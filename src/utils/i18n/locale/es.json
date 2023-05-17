@@ -1,4 +1,100 @@
-{"navi": {
-    "en": "Inglés",
-    "sp": "Español"
-}}
+{
+    "navi": {
+        "en": "Inglés",
+        "sp": "Español"
+    },
+    "nav": {
+        "section1": "Sobre mi",
+        "section2": "Experiencia",
+        "section3": "Contacto"
+    },
+    "hero": {
+        "title": "¡Hola! Soy ",
+        "dev": "Desarrolador Full Stack de",
+        "dev1": "interfaces y aplicaciones web"
+    },
+    "about": {
+        "intro": "Introducción",
+        "title": "Sobre mi.",
+        "content": "Soy un desarrollador web apasionado por crear aplicaciones eficientes y escalables utilizando tecnologías modernas. Me especializo en el desarrollo de aplicaciones front-end utilizando React y Redux, así como en la creación de aplicaciones back-end utilizando Node.js y Express.js. Además, tengo experiencia en el manejo de bases de datos relacionales con SQL y Sequelize, y en el diseño de páginas web con HTML y CSS.",
+        "content1": "Si buscas un desarrollador con habilidades técnicas sólidas y experiencia en proyectos complejos, estoy seguro de que puedo ser de gran ayuda. Me enorgullece trabajar en equipo, comunicarme de manera efectiva y estar siempre dispuesto a aprender y mejorar."
+    },
+    "service": {
+        "title1": "Desarrollador Front-end",
+        "title2": "Desarrollador Back-end",
+        "title3": "Base de Datos",
+        "title4": "Creador de Contenido"
+    },
+    "contact":{
+        "alertOk": "Muchas gracias por tu mensaje. Me pondré en contacto contigo a la brevedad.",
+        "alertNok": "Algo ha salido mal.",
+        "question": "¿Querés comunicarte conmigo?",
+        "title": "Contacto",
+        "name": "Tu nombre",
+        "placeholder1": "¿Cómo te llamas?",
+        "email": "Tu email",
+        "placeholder2": "¿Cuál es tu e-mail?",
+        "msj": "Tu mensaje",
+        "placeholder3": "Dime en qué puedo ayudarte.",
+        "load": "Enviando...",
+        "send": "Enviar"
+    },
+    "experience": {
+        "title": "Lo que he hecho hasta ahora.",
+        "labor": "Experiencia"
+    },
+    "constants": {
+        "experiences": {
+            "one": {
+                "title": "Bootcamp en Soy Henry.",
+                "point1": "Comencé el proyecto creando un plan detallado que incluía el diseño de la interfaz de usuario, la definición de las funcionalidades principales de la SPA y la determinación de los recursos necesarios. Esta fase me permitió tener una visión clara del alcance del proyecto y los recursos que necesitaría para llevarlo a cabo.",
+                "point2": "Implementación del frontend: Una vez definido el plan, comencé a trabajar en la implementación del frontend utilizando HTML, CSS y JavaScript. Utilicé frameworks y librerías populares como React y Redux para crear componentes reutilizables y mantener una estructura organizada del código.",
+                "point3": "Desarrollo del backend: Después de haber finalizado el frontend, me enfocqué en el desarrollo del backend utilizando Node.js y Express. Utilicé una base de datos como MySQL para almacenar los datos necesarios para el proyecto.",
+                "point4": "Durante el proceso de creación de la SPA de Rick and Morty, fui evaluado continuamente por los instructores del bootcamp a través de exámenes y presentaciones paralelas del proyecto. Esto me permitió recibir retroalimentación valiosa sobre mi progreso y mejorar mis habilidades técnicas y de comunicación."
+            },
+            "two": {
+                "title": "Proyecto Individual.",
+                "point1": "Comencé el proyecto realizando una investigación detallada de la API externa que me brindó la academia. Utilicé esta información para crear un plan detallado que incluía el diseño de la interfaz de usuario y la definición de las funcionalidades principales de la aplicación.",
+                "point2": "Después de haber definido el plan, comencé a trabajar en la implementación del frontend utilizando HTML, CSS y JavaScript. Utilicé frameworks y librerías populares como React y Redux para crear componentes reutilizables y mantener una estructura organizada del código.",
+                "point3": "implementé la lógica para que el usuario pudiera seleccionar ciertas recetas, ver su detalle y crear, borrar o editar una receta.",
+                "point4": "Una vez finalizado el frontend, me enfocqué en el desarrollo del backend utilizando Node.js y Express. Utilicé una base de datos MySQL para almacenar los datos de las recetas y la información del usuario.",
+                "point5": "realicé pruebas exhaustivas para asegurarme de que la aplicación funcionara correctamente y cumpliera con todas las funcionalidades definidas en el plan."
+            },
+            "three": {
+                "title": "Proyecto Final.",
+                "point1": "Planificación y diseño: Comenzamos el proyecto final planificando y diseñando el producto en conjunto utilizando las reglas SCRUM y Figma. Definimos las funcionalidades principales del producto y elaboramos historias de usuario. También establecimos una estructura de equipo para optimizar la eficiencia del trabajo en equipo.",
+                "point2": "trabajé en la implementación del frontend en conjunto con otros miembros del equipo utilizando tecnologías nuevas como Auth0 para la autenticación de usuarios, Cloudinary para la gestión de la nube, Redux Toolkit para la gestión del estado de la aplicación y Mercado Pago para el procesamiento de pagos.",
+                "point3": "Utilizamos frameworks y librerías populares como React y Material-UI para crear componentes reutilizables y mantener una estructura organizada del código.",
+                "point4": "Pruebas y puesta en producción: Finalmente, realizamos pruebas exhaustivas para asegurarnos de que la aplicación funcionara correctamente y cumpliera con todas las funcionalidades definidas en las historias de usuario. Una vez que estuvimos satisfechos con los resultados, pusimos el producto en producción utilizando herramientas como Vercel y Render."
+            }
+        },
+        "feedback": {
+            "question": "¿Qué dicen de mí?",
+            "testi": "Testimonios"
+        },
+        "works": {
+            "title": "Mis Trabajos",
+            "proy": "Proyectos",
+            "summary": "Los siguientes proyectos muestran mis habilidades y experiencia a través de ejemplos reales de mi trabajo. Cada proyecto se describe brevemente con enlaces a repositorios de código y demostraciones en vivo. Refleja mi capacidad para resolver problemas complejos, trabajar con diferentes tecnologías y gestionar proyectos de forma eficaz."
+        },
+        "testimonials": {
+            "test1": "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+            "test2": "I've never met a web developer who truly cares about their clients' success like Rick does.",
+            "test3": "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!"
+        },
+        "projects": {
+            "one": {
+                "name": "App de perros",
+                "description": "¡Mi primera creación! Fue mi trabajo individual para el bootcamp de Henry. En esta página podrás ver todas las razas de perros que nos brinda una API de perros externa y a su vez cargar tus propios perros, ya que en mi caso particular también amo a los perros sin raza comercial. Podrás filtrarlos por temperamento y por fuente: es decir si son perros que provienen de la API o son cargados por tí. También los puedes ordernar alfabéticamente y por peso."
+            },
+            "two": {
+                "name": "Mi CV",
+                "description": "Con motivo de mi falta de experiencia en HTML y CSS, decidí seguir practicando y hacer mi CV. Tiene un menú desplegable que incluye la opción de ver el mismo CV en inglés. También cuenta con mi información de contacto para facilitar la comunicación."
+            },
+            "three": {
+                "name": "Patitas Felices",
+                "description": "Página web creada como trabajo final para el bootcamp de Henry. Fue un trabajo grupal de 8 miembros. Mi desempeño se basó mayormente en el Backend. La página se hizo para un refugio de perros de la provincia de Córdoba, Argentina. A través del sitio, se puede solicitar la adopción de los perros disponibles, hacer donaciones y compras de productos. También se pueden dejar reseñas una vez logueado y los usuarios con perfil de administrador tienen acceso a una sección privada donde se pueden gestionar las compras, las adopciones, los permisos de los usuarios, entre otras."
+            }
+        }
+    }
+}

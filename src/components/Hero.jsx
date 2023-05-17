@@ -3,8 +3,11 @@ import { motion } from 'framer-motion'
 import { styles } from "../styles";
 import Desktop from '../utils/lottiefiles/desk-developer.json';
 import { Player } from '@lottiefiles/react-lottie-player';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
+
+  const { t } = useTranslation();
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -17,11 +20,11 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hola, soy <span className='text-[#915EFF]'>Marcos</span>
+            {t("hero.title")} <span className='text-[#915EFF]'>Marcos</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Desarrolador Full Stack de <br className='sm:block hidden' />
-            interfaces y aplicaciones web
+            {t("hero.dev")} <br className='sm:block hidden' />
+            {t("hero.dev1")}
           </p>
         </div>
       </div>

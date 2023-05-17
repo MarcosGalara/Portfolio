@@ -1,3 +1,4 @@
+import traslate from "../utils/i18n/i18n";
 import {
     mobile,
     backend,
@@ -31,33 +32,33 @@ import {
   export const navLinks = [
     {
       id: "about",
-      title: "Sobre mi",
+      title: traslate.t('nav.section1'),
     },
     {
       id: "work",
-      title: "Experiencia",
+      title: traslate.t('nav.section2'),
     },
     {
       id: "contact",
-      title: "Contacto",
+      title: traslate.t('nav.section3'),
     },
   ];
   
   const services = [
     {
-      title: "Web Developer",
+      title: traslate.t("service.title1"),
       icon: web,
     },
     {
-      title: "React Developer",
+      title: traslate.t("service.title2"),
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: traslate.t("service.title3"),
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: traslate.t("service.title4"),
       icon: creator,
     },
   ];
@@ -135,43 +136,43 @@ import {
   
   const experiences = [
     {
-      title: "Bootcamp en Soy Henry",
+      title: traslate.t("constants.experiences.one.title"),
       company_name: "Rick & Morty SPA",
       icon: rickAndMorty,
       iconBg: "#383E56",
       date: "01/02/2023 - 30/03/2023",
       points: [
-        "Comencé el proyecto creando un plan detallado que incluía el diseño de la interfaz de usuario, la definición de las funcionalidades principales de la SPA y la determinación de los recursos necesarios. Esta fase me permitió tener una visión clara del alcance del proyecto y los recursos que necesitaría para llevarlo a cabo.",
-        "Implementación del frontend: Una vez definido el plan, comencé a trabajar en la implementación del frontend utilizando HTML, CSS y JavaScript. Utilicé frameworks y librerías populares como React y Redux para crear componentes reutilizables y mantener una estructura organizada del código.",
-        "Desarrollo del backend: Después de haber finalizado el frontend, me enfocqué en el desarrollo del backend utilizando Node.js y Express. Utilicé una base de datos como MySQL para almacenar los datos necesarios para el proyecto.",
-        "Durante el proceso de creación de la SPA de Rick and Morty, fui evaluado continuamente por los instructores del bootcamp a través de exámenes y presentaciones paralelas del proyecto. Esto me permitió recibir retroalimentación valiosa sobre mi progreso y mejorar mis habilidades técnicas y de comunicación."
+        traslate.t("constants.experiences.one.point1"),
+        traslate.t("constants.experiences.one.point2"),
+        traslate.t("constants.experiences.one.point3"),
+        traslate.t("constants.experiences.one.point4"),
       ],
     },
     {
-      title: "Proyecto Individual",
+      title: traslate.t("constants.experiences.two.title"),
       company_name: "Food SPA",
       icon: burger,
       iconBg: "#E6DEDD",
       date: "01/04/2023 - 15/04/2023",
       points: [
-        "Comencé el proyecto realizando una investigación detallada de la API externa que me brindó la academia. Utilicé esta información para crear un plan detallado que incluía el diseño de la interfaz de usuario y la definición de las funcionalidades principales de la aplicación.",
-        "Después de haber definido el plan, comencé a trabajar en la implementación del frontend utilizando HTML, CSS y JavaScript. Utilicé frameworks y librerías populares como React y Redux para crear componentes reutilizables y mantener una estructura organizada del código.",
-        "implementé la lógica para que el usuario pudiera seleccionar ciertas recetas, ver su detalle y crear, borrar o editar una receta.",
-        "Una vez finalizado el frontend, me enfocqué en el desarrollo del backend utilizando Node.js y Express. Utilicé una base de datos MySQL para almacenar los datos de las recetas y la información del usuario.",
-        "realicé pruebas exhaustivas para asegurarme de que la aplicación funcionara correctamente y cumpliera con todas las funcionalidades definidas en el plan."
+        traslate.t("constants.experiences.two.point1"),
+        traslate.t("constants.experiences.two.point2"),
+        traslate.t("constants.experiences.two.point3"),
+        traslate.t("constants.experiences.two.point4"),
+        traslate.t("constants.experiences.two.point5")
       ],
     },
     {
-      title: "Proyecto Final",
+      title: traslate.t("constants.experiences.three.title"),
       company_name: "Patitas Felices",
       icon: patita,
       iconBg: "#383E56",
       date: "16/04/2023 - 04/05/2023",
       points: [
-        "Planificación y diseño: Comenzamos el proyecto final planificando y diseñando el producto en conjunto utilizando las reglas SCRUM y Figma. Definimos las funcionalidades principales del producto y elaboramos historias de usuario. También establecimos una estructura de equipo para optimizar la eficiencia del trabajo en equipo.",
-        "trabajé en la implementación del frontend en conjunto con otros miembros del equipo utilizando tecnologías nuevas como Auth0 para la autenticación de usuarios, Cloudinary para la gestión de la nube, Redux Toolkit para la gestión del estado de la aplicación y Mercado Pago para el procesamiento de pagos.",
-        "Utilizamos frameworks y librerías populares como React y Material-UI para crear componentes reutilizables y mantener una estructura organizada del código.",
-        "Pruebas y puesta en producción: Finalmente, realizamos pruebas exhaustivas para asegurarnos de que la aplicación funcionara correctamente y cumpliera con todas las funcionalidades definidas en las historias de usuario. Una vez que estuvimos satisfechos con los resultados, pusimos el producto en producción utilizando herramientas como Vercel y Render."
+        traslate.t("constants.experiences.three.point1"),
+        traslate.t("constants.experiences.three.point2"),
+        traslate.t("constants.experiences.three.point3"),
+        traslate.t("constants.experiences.three.point4"),
       ],
     },
   ];

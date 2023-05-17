@@ -1,6 +1,7 @@
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
 import { styles } from "../styles";
 import { services } from "../constants";
@@ -36,20 +37,23 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
+
+  const { t } = useTranslation();
+  
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introducción</p>
-        <h2 className={styles.sectionHeadText}>Sobre mi.</h2>
+        <p className={styles.sectionSubText}>{t("about.intro")}</p>
+        <h2 className={styles.sectionHeadText}>{t("about.title")}</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Soy un desarrollador web apasionado por crear aplicaciones eficientes y escalables utilizando tecnologías modernas. Me especializo en el desarrollo de aplicaciones front-end utilizando React y Redux, así como en la creación de aplicaciones back-end utilizando Node.js y Express.js. Además, tengo experiencia en el manejo de bases de datos relacionales con SQL y Sequelize, y en el diseño de páginas web con HTML y CSS.
+        {t("about.content")}
         <br />
-        Si buscas un desarrollador con habilidades técnicas sólidas y experiencia en proyectos complejos, estoy seguro de que puedo ser de gran ayuda. Me enorgullece trabajar en equipo, comunicarme de manera efectiva y estar siempre dispuesto a aprender y mejorar.
+        {t("about.content1")}
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

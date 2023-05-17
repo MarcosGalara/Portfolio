@@ -1,4 +1,100 @@
-{"navi": {
-    "en": "English",
-    "sp": "Spanish"
-}}
+{
+    "navi": {
+        "en": "English",
+        "sp": "Spanish"
+    },
+    "nav": {
+        "section1": "About me",
+        "section2": "Experience",
+        "section3": "Contact"
+    },
+    "hero": {
+        "title": "Hi, I`m ",
+        "dev": "Full Stack web application",
+        "dev1": "and interface developer"
+    },
+    "about": {
+        "intro": "Introduction",
+        "title": "About me.",
+        "content": "I am a web developer passionate about creating efficient and scalable applications using modern technologies. I specialize in developing front-end applications using React and Redux, as well as creating back-end applications using Node.js and Express.js. In addition, I have experience in relational database management with SQL and Sequelize, and web design with HTML and CSS.",
+        "content1": "If you are looking for a developer with solid technical skills and experience in complex projects, I am confident that I can be of great help. I pride myself on working in a team, communicating effectively and always being willing to learn and improve."
+    },
+    "service": {
+        "title1": "Front-end Developer",
+        "title2": "Back-end Developer",
+        "title3": "Data Bases",
+        "title4": "Content Creator"
+    },
+    "contact":{
+        "alertOk": "Thank you very much for your message. I will get back to you as soon as possible.",
+        "alertNok": "Something went wrong.",
+        "question": "Would you like to get in touch?",
+        "title": "Contact",
+        "name": "Your name",
+        "placeholder1": "What`s your name?",
+        "email": "Your e-mail",
+        "placeholder2": "What`s your e-mail?",
+        "msj": "Your message",
+        "placeholder3": "Tell me how I can help you.",
+        "load": "Sending...",
+        "send": "Send"
+    },
+    "experience": {
+        "title": "What I have done so far",
+        "labor": "Experience"
+    },
+    "constants": {
+        "experiences": {
+            "one": {
+                "title": "Soy Henry Bootcamp.",
+                "point1": "I started the project by creating a detailed plan that included the design of the user interface, the definition of the main functionalities of the SPA and the determination of the necessary resources. This phase allowed me to have a clear vision of the scope of the project and the resources I would need to carry it out.",
+                "point2": "Frontend implementation: Once the plan was defined, I started working on the frontend implementation using HTML, CSS and JavaScript. I used popular frameworks and libraries such as React and Redux to create reusable components and maintain an organized code structure.",
+                "point3": "Backend development: After finishing the frontend, I focused on the backend development using Node.js and Express. I used a database like MySQL to store the data needed for the project.",
+                "point4": "During the process of creating the Rick and Morty SPA, I was continuously evaluated by the bootcamp instructors through quizzes and side presentations of the project. This allowed me to receive valuable feedback on my progress and improve my technical and communication skills."
+            },
+            "two": {
+                "title": "Individual Project.",
+                "point1": "I started the project by conducting a detailed research of the external API provided by the academy. I used this information to create a detailed plan that included designing the user interface and defining the main functionalities of the application.",
+                "point2": "After defining the plan, I started working on the frontend implementation using HTML, CSS and JavaScript. I used popular frameworks and libraries such as React and Redux to create reusable components and maintain an organized code structure.",
+                "point3": "I implemented the logic so that the user could select certain recipes, view their detail and create, delete or edit a recipe.",
+                "point4": "Once the frontend was finished, I focused on the backend development using Node.js and Express. I used a MySQL database to store the recipe data and user information.",
+                "point5": "I performed exhaustive tests to make sure that the application worked correctly and fulfilled all the functionalities defined in the plan."
+            },
+            "three": {
+                "title": "Final Project.",
+                "point1": "Planning and design: We start the final project planning and designing the product together using SCRUM and Figma rules. We defined the main functionalities of the product and elaborated user stories. We also established a team structure to optimize the efficiency of the team work.",
+                "point2": "I worked on the frontend implementation in conjunction with other team members using new technologies such as Auth0 for user authentication, Cloudinary for cloud management, Redux Toolkit for application state management and Mercado Pago for payment processing.",
+                "point3": "We use popular frameworks and libraries such as React and Material-UI to create reusable components and maintain an organized code structure.",
+                "point4": "Testing and production release: Finally, we performed extensive testing to ensure that the application worked correctly and fulfilled all the functionalities defined in the user stories. Once we were satisfied with the results, we put the product into production using tools such as Vercel and Render."
+            }
+        },
+        "feedback": {
+            "question": "What others say",
+            "testi": "Testimonials"
+        },
+        "works": {
+            "title": "My Works",
+            "proy": "Projects",
+            "summary": "The following projects showcase my skills and experience through real examples of my work. Each project is briefly described with links to code repositories and live demos. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively."
+        },
+        "testimonials": {
+            "test1": "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+            "test2": "I've never met a web developer who truly cares about their clients' success like Rick does.",
+            "test3": "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!"
+        },
+        "projects": {
+            "one": {
+                "name": "Doggui App",
+                "description": "My first creation! It was my individual work for the Henry bootcamp. On this page, you will be able to see all the dog breeds provided by an external dog API, as well as upload your own dogs since, in my particular case, I also love dogs who lack a commercial breed. You can filter them by temperament and source, whether they are dogs from the API or uploaded by you. You can also sort them alphabetically and by weight."
+            },
+            "two": {
+                "name": "My CV",
+                "description": "Due to my lack of experience in HTML and CSS, I decided to continue practicing and created my CV. It features a dropdown menu that includes the option to view the same CV in English. It also includes my contact information to facilitate communication."
+            },
+            "three": {
+                "name": "Happy Paws",
+                "description": "Website created as the final project for the Henry bootcamp. It was a group project of 8 members. My role was primarily focused on the Backend. The website was created for a dog shelter in the province of Córdoba, Argentina. Through the site, users can request the adoption of available dogs, make donations, and purchase products. Users can also leave reviews once logged in, and those who are administrators have access to a private section where they can manage purchases, adoptions, user permissions, among other things."
+            }
+        }
+    }
+}
