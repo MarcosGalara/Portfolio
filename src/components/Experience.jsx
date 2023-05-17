@@ -11,8 +11,10 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import { useEffect } from 'react';
 
 const ExperienceCard = ({ experience }) => {
+  
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -57,7 +59,12 @@ const ExperienceCard = ({ experience }) => {
 };
 
 const Experience = () => {
+  
   const { t } = useTranslation();
+  /* useEffect (()=> {
+    console.log(localStorage.getItem("lang")); 
+  },[localStorage.getItem("lang")]) */
+
   return (
     <>
       <motion.div variants={textVariant()}>
