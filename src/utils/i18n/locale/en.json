@@ -28,8 +28,8 @@
     "contact":{
         "alertOk": "Thank you very much for your message. I will get back to you as soon as possible.",
         "alertNok": "Something went wrong.",
-        "question": "Would you like to get in touch?",
-        "title": "Contact",
+        "connect": "Get in touch",
+        "title": "Contact.",
         "name": "Your name",
         "placeholder1": "What`s your name?",
         "email": "Your e-mail",
@@ -75,26 +75,17 @@
         "works": {
             "title": "My Works",
             "proy": "Projects",
-            "summary": "The following projects showcase my skills and experience through real examples of my work. Each project is briefly described with links to code repositories and live demos. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively."
+            "summary": "The following projects showcase my skills and experience through real examples of my work. Each project is briefly described with links to code repositories and live demos. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
+            "project": {
+                "one": "This project is a web or mobile application for searching and filtering characters from the animated series Rick and Morty. Users can search and filter characters by specific characteristics, add them to a favorites list, edit their values and even delete them. It is a useful tool for fans of the series to explore and get to know the characters better.",
+                "two": "The restaurant app I developed allows users to search, browse and filter culinary recipes by diet type, food health level, ingredients and more. Users can create, edit and delete their own recipes and sort them to quickly find the most popular or new ones. It is an ideal tool for those looking for a variety of healthy and tasty recipes to suit their unique dietary needs.",
+                "three": "this project is a web application that facilitates the adoption of dogs through the search and filtering of profiles of dogs for adoption. It also includes an e-commerce section whose income is used to improve the shelter's infrastructure. It is an important tool to help dogs in need and encourage responsible pet adoption."
+            }
         },
         "testimonials": {
-            "test1": "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-            "test2": "I've never met a web developer who truly cares about their clients' success like Rick does.",
-            "test3": "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!"
-        },
-        "projects": {
-            "one": {
-                "name": "Doggui App",
-                "description": "My first creation! It was my individual work for the Henry bootcamp. On this page, you will be able to see all the dog breeds provided by an external dog API, as well as upload your own dogs since, in my particular case, I also love dogs who lack a commercial breed. You can filter them by temperament and source, whether they are dogs from the API or uploaded by you. You can also sort them alphabetically and by weight."
-            },
-            "two": {
-                "name": "My CV",
-                "description": "Due to my lack of experience in HTML and CSS, I decided to continue practicing and created my CV. It features a dropdown menu that includes the option to view the same CV in English. It also includes my contact information to facilitate communication."
-            },
-            "three": {
-                "name": "Happy Paws",
-                "description": "Website created as the final project for the Henry bootcamp. It was a group project of 8 members. My role was primarily focused on the Backend. The website was created for a dog shelter in the province of Córdoba, Argentina. Through the site, users can request the adoption of available dogs, make donations, and purchase products. Users can also leave reviews once logged in, and those who are administrators have access to a private section where they can manage purchases, adoptions, user permissions, among other things."
-            }
+            "test1": "I loved the Rick and Morty app, it is very easy to use and allows me to search for my favorite characters and add them to my favorites list. I also like that I can filter the characters by certain characteristics. I would definitely recommend it to any fan of the series.",
+            "test2": "The animal shelter app is an amazing initiative. I love the way it facilitates the adoption of dogs through the search and filtering of profiles of dogs up for adoption. Also, the e-commerce section is great as it allows me to buy products to help the shelter improve its infrastructure. I am definitely happy to see projects like this and I hope more people support them in their noble cause.",
+            "test3": "The restaurant recipe app is an incredibly useful tool for anyone who wants to cook healthy and tasty meals at home. I really like the filtering feature to search for recipes based on my diet type and health level. Also, the option to create, edit and delete my own recipes is a great feature. I will definitely continue to use this app for my next culinary experiments."
         }
     }
 }

@@ -28,10 +28,10 @@
     "contact":{
         "alertOk": "Muchas gracias por tu mensaje. Me pondré en contacto contigo a la brevedad.",
         "alertNok": "Algo ha salido mal.",
-        "question": "¿Querés comunicarte conmigo?",
-        "title": "Contacto",
+        "connect": "Póngase en contacto",
+        "title": "Contacto.",
         "name": "Tu nombre",
-        "placeholder1": "¿Cómo te llamas?",
+        "placeholder1": "¿Cúal es tu nombre?",
         "email": "Tu email",
         "placeholder2": "¿Cuál es tu e-mail?",
         "msj": "Tu mensaje",
@@ -69,32 +69,23 @@
             }
         },
         "feedback": {
-            "question": "¿Qué dicen de mí?",
+            "question": "Lo que dicen los demás",
             "testi": "Testimonios"
         },
         "works": {
             "title": "Mis Trabajos",
             "proy": "Proyectos",
-            "summary": "Los siguientes proyectos muestran mis habilidades y experiencia a través de ejemplos reales de mi trabajo. Cada proyecto se describe brevemente con enlaces a repositorios de código y demostraciones en vivo. Refleja mi capacidad para resolver problemas complejos, trabajar con diferentes tecnologías y gestionar proyectos de forma eficaz."
+            "summary": "Los siguientes proyectos muestran mis habilidades y experiencia a través de ejemplos reales de mi trabajo. Cada proyecto se describe brevemente con enlaces a repositorios de código y demostraciones en vivo. Refleja mi capacidad para resolver problemas complejos, trabajar con diferentes tecnologías y gestionar proyectos de forma eficaz.",
+            "project": {
+                "one": "Este proyecto es una aplicación web o móvil de búsqueda y filtrado de personajes de la serie animada Rick and Morty. Los usuarios pueden buscar y filtrar personajes por características específicas, agregarlos a una lista de favoritos, editar sus valores e incluso eliminarlos. Es una herramienta útil para que los fanáticos de la serie exploren y conozcan mejor a los personajes.",
+                "two": "La aplicación de restaurante que he desarrollado permite a los usuarios buscar, explorar y filtrar recetas culinarias según su tipo de dieta, nivel de salud de la comida, ingredientes y más. Los usuarios pueden crear, editar y borrar sus propias recetas y ordenarlas para encontrar rápidamente las más populares o nuevas. Es una herramienta ideal para aquellos que buscan una variedad de recetas saludables y sabrosas que se adapten a sus necesidades dietéticas únicas.",
+                "three": "este proyecto es una aplicación web que facilita la adopción de perros a través de la búsqueda y filtrado de perfiles de perros en adopción. También incluye una sección de e-commerce cuyos ingresos se destinan a mejorar la infraestructura del refugio. Es una herramienta importante para ayudar a los perros necesitados y fomentar la adopción responsable de mascotas."
+            }
         },
         "testimonials": {
-            "test1": "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-            "test2": "I've never met a web developer who truly cares about their clients' success like Rick does.",
-            "test3": "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!"
-        },
-        "projects": {
-            "one": {
-                "name": "App de perros",
-                "description": "¡Mi primera creación! Fue mi trabajo individual para el bootcamp de Henry. En esta página podrás ver todas las razas de perros que nos brinda una API de perros externa y a su vez cargar tus propios perros, ya que en mi caso particular también amo a los perros sin raza comercial. Podrás filtrarlos por temperamento y por fuente: es decir si son perros que provienen de la API o son cargados por tí. También los puedes ordernar alfabéticamente y por peso."
-            },
-            "two": {
-                "name": "Mi CV",
-                "description": "Con motivo de mi falta de experiencia en HTML y CSS, decidí seguir practicando y hacer mi CV. Tiene un menú desplegable que incluye la opción de ver el mismo CV en inglés. También cuenta con mi información de contacto para facilitar la comunicación."
-            },
-            "three": {
-                "name": "Patitas Felices",
-                "description": "Página web creada como trabajo final para el bootcamp de Henry. Fue un trabajo grupal de 8 miembros. Mi desempeño se basó mayormente en el Backend. La página se hizo para un refugio de perros de la provincia de Córdoba, Argentina. A través del sitio, se puede solicitar la adopción de los perros disponibles, hacer donaciones y compras de productos. También se pueden dejar reseñas una vez logueado y los usuarios con perfil de administrador tienen acceso a una sección privada donde se pueden gestionar las compras, las adopciones, los permisos de los usuarios, entre otras."
-            }
+            "test1": "Me encantó la aplicación de Rick and Morty, es muy fácil de usar y me permite buscar a mis personajes favoritos y agregarlos a mi lista de favoritos. También me gusta que pueda filtrar los personajes por ciertas características. Definitivamente la recomendaría a cualquier fan de la serie.",
+            "test2": "La aplicación de refugio de animales es una iniciativa increíble. Me encanta la forma en que facilita la adopción de perros a través de la búsqueda y el filtrado de perfiles de perros en adopción. Además, la sección de e-commerce es genial ya que me permite comprar productos para ayudar al refugio a mejorar su infraestructura. Definitivamente, me alegra ver proyectos como este y espero que más personas los apoyen en su noble causa.",
+            "test3": "La aplicación de recetas de restaurante es una herramienta increíblemente útil para cualquiera que quiera cocinar comidas saludables y sabrosas en casa. Me gusta mucho la función de filtrado para buscar recetas según mi tipo de dieta y nivel de salud. Además, la opción de crear, editar y borrar mis propias recetas es una característica excelente. Definitivamente seguiré usando esta aplicación para mis próximos experimentos culinarios."
         }
     }
 }

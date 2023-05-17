@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
+import { useTranslation } from "react-i18next";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -16,7 +16,7 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
-
+  const { t } = useTranslation();
   const handleChange = (e) => {
     const { target } = e;
     const { name, value } = target;
@@ -47,7 +47,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Gracias. Me pondré en contacto con usted lo antes posible.");
+          alert(t("contact.alertOk"));
 
           setForm({
             name: "",
@@ -59,7 +59,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, algo ha ido mal. Por favor, inténtelo de nuevo.");
+          alert(t("contact.alertNok"));
         }
       );
   };
@@ -71,8 +71,8 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Póngase en contacto</p>
-        <h3 className={styles.sectionHeadText}>Contacto.</h3>
+        <p className={styles.sectionSubText}>{t("contact.connect")}</p>
+        <h3 className={styles.sectionHeadText}>{t("contact.title")}</h3>
 
         <form
           ref={formRef}
@@ -80,35 +80,35 @@ const Contact = () => {
           className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Tu Nombre</span>
+            <span className='text-white font-medium mb-4'>{t("contact.name")}</span>
             <input
               type='text'
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="Cúal es tu nombre?"
+              placeholder={t("contact.placeholder1")}
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Tu Email</span>
+            <span className='text-white font-medium mb-4'>{t("contact.email")}</span>
             <input
               type='email'
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="Cúal es tu email?"
+              placeholder={t("contact.placeholder2")}
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Tu Mensaje</span>
+            <span className='text-white font-medium mb-4'>{t("contact.msj")}</span>
             <textarea
               rows={7}
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='Tu mensaje...'
+              placeholder={t("contact.placeholder3")}
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -117,7 +117,7 @@ const Contact = () => {
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
-            {loading ? "Enviando..." : "Enviar"}
+            {loading ? t("contact.load") : t("contact.send") }
           </button>
         </form>
       </motion.div>
