@@ -37,16 +37,14 @@ const Hero = () => {
         alignItems: "center",
     }}
       >
+        <div className='flex items-center h-screen' >
             <Player 
+            className='w-52 pt-20'
             autoplay
             loop
             src={Desktop}
-            style={{
-              width: "110%",
-              height: "110%",
-              marginTop: "200px"
-            }}
             />
+        </div>
       </div>
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
